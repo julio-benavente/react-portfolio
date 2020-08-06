@@ -1,0 +1,112 @@
+@import '../Variables.scss';
+
+
+
+
+
+.homeSection {
+    height: 100%;
+    padding: 50px;
+    background-color: $gray;
+    display: grid;
+    grid-template-rows: 50px 1fr 50px;
+    color: lighten($lblue, 20%);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    color: $blue;
+
+    .firstText {
+        display: grid;
+        grid-gap: 10px;
+        justify-content: end;
+        align-content: end;
+        grid-template-columns: auto 25px;
+        grid-template-rows: 1fr;
+
+        .envelope {
+            align-items: start;
+            display: inline-block;
+            position: relative;
+            width: 23px;
+            height: 23px;
+            border-radius: 100%;
+            background-color: darken($gray, 10%);
+            transition: all 250ms ease-in-out;
+            color: $blue;
+            &::before {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%,-50%);
+                font-size: 12px;
+            }
+    
+            &:hover {
+                background: $blue;
+                color: darken($gray, 10%);
+            }
+        }
+
+    }
+
+
+    .envelope, .plus {
+        cursor: pointer;
+        color: $blue;
+
+    }
+
+
+
+    .cellphone {
+        font-family: 'Oswald';
+        font-weight: normal;
+        display: grid;
+        writing-mode: vertical-rl;
+        justify-content: center;
+        color: darken($gray, 10%);
+        letter-spacing: 2px;
+    }
+    
+
+
+    .secondText {
+        display: grid;
+        grid-gap: 10px;
+        align-content: end;
+        justify-content: end;
+        grid-template-columns: auto 25px;
+        grid-template-rows: 1fr;
+
+
+        .plus {
+            justify-items: end;
+            display: inline-block;
+            position: relative;
+            width: 23px;
+            height: 23px;
+            border-radius: 100%;
+            background-color: $blue;
+            color: $gray;
+            transition: all 250ms ease-in-out;
+    
+    
+            &::before {
+                font-size: 12px;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-45%,-50%);
+            }
+    
+            &:hover {
+                background-color: darken($gray, 10%);
+                color: $blue;
+    
+            }
+        }
+
+    }
+}
+

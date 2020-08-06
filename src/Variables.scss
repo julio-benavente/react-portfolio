@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Roboto:wght@400;700&display=swap');
+
+
+// Variables
+// Colors
+$blue : #0E1319;
+$lblue : #2C3541;
+$white : #FFFFFF;
+$gray : #D9D9DA;
+
+
+
+@mixin RobotoR {
+  font-family: 'Roboto';
+  font-weight: normal;
+}
+
+@mixin RobotoB {
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+@mixin OswaldM {
+  font-family: 'Oswald';
+  font-weight: 500;
+}
+
+@mixin OswaldB {
+  font-family: 'Oswald';
+  font-weight: bold;
+}
+
+
+
+//Responsive design variables
+$screen-xl-max: (567px - 1px);
+$screen-md-max: (768px - 1px);
+$screen-lg-max: (992px - 1px);
+$screen-xl-max: (1199px - 1px);
+
+@mixin sm {
+  @media (max-width: #{$screen-sm-max}) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (max-width: #{$screen-md-max}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (max-width: #{$screen-lg-max}) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media (max-width: #{$screen-xl-max}) {
+    @content;
+  }
+}

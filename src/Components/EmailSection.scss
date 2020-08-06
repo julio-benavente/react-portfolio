@@ -1,0 +1,67 @@
+@import '../Variables.scss';
+
+.sendEmailSection {
+    position: absolute;
+    background: $blue;
+    color: $white;
+    height: calc(100% - 1px);
+    width: 400px;
+    right: 0;
+    z-index: 20;
+    padding: 30px;
+
+    .formTitle {
+        display: grid;
+        grid-template-columns: 1fr auto;
+
+        h2 {
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .close {
+            align-items: start;
+            display: inline-block;
+            position: relative;
+            width: 23px;
+            height: 23px;
+            border-radius: 100%;
+            color: $blue;
+            background-color: darken($gray, 10%);
+            transition: all 250ms ease-in-out;
+            cursor: pointer;
+            &::before {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%,-50%);
+                font-size: 12px;
+            }
+
+            &:hover {
+                background: $white;
+                color: $blue;
+            }
+        }
+    }
+
+
+    form {
+
+        margin-bottom: 20px;
+        input {
+            width: 100%;
+            height: 36px;
+            padding: 5px 10px;
+            margin-bottom: 10px;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+    }
+
+}

@@ -1,0 +1,100 @@
+@import '../Variables.scss';
+
+.navBar {
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: $gray;
+    overflow: hidden;
+    padding: 50px;
+    display: grid;
+    grid-template-rows: 1fr 100px;
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: 200%;
+        height: 140%;
+        background: radial-gradient(circle, $lblue 0%, lighten($blue, 0.6) 50%, $blue 70%);
+    }
+
+    .navLinks {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: start;
+        
+        .navLink {
+            position: relative;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 12px;
+            text-decoration: none;
+            color: $gray;
+
+
+            span {
+                display: inline;
+                visibility: hidden;
+                opacity: 0;
+                position: absolute;
+                transition: all 300ms ease-in-out;
+                
+            }
+
+            li {
+                display: inline;
+                transition: all 300ms linear;
+
+            }
+
+            &.active {
+                span {
+                    position: relative;
+                    visibility: visible;
+                    opacity: 1;
+
+                }
+
+                li {
+                    margin-left: 12px;                    
+                }
+            }
+            
+            &:hover {
+
+                span {
+                    position: relative;
+                    visibility: visible;
+                    opacity: 1;
+
+                }
+
+                li {
+                    margin-left: 12px;                    
+                }
+            }
+    
+        }
+    }
+    
+    .nameProfession {
+        display: grid;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        align-content: end;
+
+        .profession {
+            @include RobotoR;
+            font-size: 12px;        
+
+        }
+    }
+
+
+}
+
