@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.a3a2d299.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.d9d8fc99.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.d9d8fc99.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.7766934d.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.a9cad76b.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.a9cad76b.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.8c64cdeb.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.8c64cdeb.js.map",
-    "static/js/2.247ab1da.chunk.js": "/react-portfolio/static/js/2.247ab1da.chunk.js",
-    "static/js/2.247ab1da.chunk.js.map": "/react-portfolio/static/js/2.247ab1da.chunk.js.map",
+    "static/js/2.a62b520f.chunk.js": "/react-portfolio/static/js/2.a62b520f.chunk.js",
+    "static/js/2.a62b520f.chunk.js.map": "/react-portfolio/static/js/2.a62b520f.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.cb7312bec61927c827faaf9fa60597b6.js": "/react-portfolio/precache-manifest.cb7312bec61927c827faaf9fa60597b6.js",
+    "precache-manifest.256db47c5d36b7bbd2a1c27a25f19333.js": "/react-portfolio/precache-manifest.256db47c5d36b7bbd2a1c27a25f19333.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
-    "static/css/main.a3a2d299.chunk.css.map": "/react-portfolio/static/css/main.a3a2d299.chunk.css.map",
-    "static/js/2.247ab1da.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.247ab1da.chunk.js.LICENSE.txt"
+    "static/css/main.7766934d.chunk.css.map": "/react-portfolio/static/css/main.7766934d.chunk.css.map",
+    "static/js/2.a62b520f.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.a62b520f.chunk.js.LICENSE.txt",
+    "static/media/ExpensesTracker.png": "/react-portfolio/static/media/ExpensesTracker.b0684221.png",
+    "static/media/MedicalRecords.png": "/react-portfolio/static/media/MedicalRecords.047655e1.png",
+    "static/media/Movie.png": "/react-portfolio/static/media/Movie.d3e14d78.png",
+    "static/media/cv.pdf": "/react-portfolio/static/media/cv.2dced789.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.8c64cdeb.js",
-    "static/js/2.247ab1da.chunk.js",
-    "static/css/main.a3a2d299.chunk.css",
-    "static/js/main.d9d8fc99.chunk.js"
+    "static/js/2.a62b520f.chunk.js",
+    "static/css/main.7766934d.chunk.css",
+    "static/js/main.a9cad76b.chunk.js"
   ]
 }
